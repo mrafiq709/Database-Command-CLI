@@ -24,3 +24,7 @@ show table status;
 Change utf:
 --------------
 ALTER DATABASE IST_DB CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+Change root pass:
+-----------------------
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
