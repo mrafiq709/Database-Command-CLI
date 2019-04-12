@@ -14,6 +14,8 @@ mysql -u root -p
 MySql Restart/Stop/Start:
 ----------------------------
 sudo systemctl status mysqld.service
+sudo systemctl start mysqld.service
+sudo systemctl stop mysqld.service
 
 Mysql DB Type:
 -------------------
