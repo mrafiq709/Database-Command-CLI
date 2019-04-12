@@ -1,0 +1,24 @@
+mysql -u root -p
+### Password: ISTK007#pass
+show databses;
+create databse databse_name
+drop databse database_name;
+use IST_DB;
+show tables;
+describe table_name;
+
+MySQL Databse CRUD:
+----------------------
+mysql -u root -p
+
+MySql Restart/Stop/Start:
+----------------------------
+sudo systemctl status mysqld.service
+
+Mysql DB Type:
+-------------------
+show table status;
+
+Change utf:
+--------------
+ALTER DATABASE IST_DB CHARACTER SET utf8 COLLATE utf8_general_ci;
