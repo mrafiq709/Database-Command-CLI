@@ -3,9 +3,6 @@ Command Line Databse
 
 ```    
 mysql -u root -p
-```
-Password: ISTK007#pass
-```
 show databses;
 create databse databse_name
 drop databse database_name;
