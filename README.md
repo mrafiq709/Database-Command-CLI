@@ -32,3 +32,10 @@ Change root pass:
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
 ```
+Create New User:
+-----------------
+```
+CREATE USER 'NewUser'@'localhost' IDENTIFIED BY 'new_password';
+GRANT ALL PRIVILEGES ON *.* TO 'NewUser'@'localhost';
+FLUSH PRIVILEGES;
+```
