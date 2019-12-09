@@ -39,3 +39,8 @@ CREATE USER 'NewUser'@'localhost' IDENTIFIED BY 'new_password';
 GRANT ALL PRIVILEGES ON *.* TO 'NewUser'@'localhost';
 FLUSH PRIVILEGES;
 ```
+Drop User:
+------------
+```
+DROP USER 'fooder_dev'@'localhost';
+```
