@@ -3,7 +3,7 @@ Command Line Databse
 
 ```    
 mysql -u root -p
-show databses;
+show databases;
 CREATE DATABASE database_name CHARACTER SET utf8 COLLATE utf8_general_ci;
 drop database database_name;
 use IST_DB;
