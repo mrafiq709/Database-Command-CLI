@@ -46,7 +46,9 @@ DROP USER 'fooder_dev'@'localhost';
 ```
 import
 ----------
+```
 mysqldump -uroot -p db_name > db.sql
+```
 
 ssh download file
 ------------------
