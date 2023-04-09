@@ -54,7 +54,7 @@ on mac
 mysql -uroot -p db_name < db.sql
 ```
 
-esport
+export
 ----------
 ```
 mysqldump -uroot -p db_name > db.sql
