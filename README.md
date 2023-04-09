@@ -47,6 +47,16 @@ DROP USER 'fooder_dev'@'localhost';
 import
 ----------
 ```
+mysqldump -uroot -p db_name < db.sql
+```
+on mac
+```
+mysql -uroot -p db_name < db.sql
+```
+
+esport
+----------
+```
 mysqldump -uroot -p db_name > db.sql
 ```
 
