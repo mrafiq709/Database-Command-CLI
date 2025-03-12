@@ -58,6 +58,8 @@ export
 ----------
 ```
 mysqldump -uroot -p db_name > db.sql
+
+mysqldump -u your_user -p --no-tablespaces your_database > backup.sql
 ```
 
 ssh download file
